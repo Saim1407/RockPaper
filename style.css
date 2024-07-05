@@ -66,3 +66,19 @@ img {
   padding: 1rem;
   border-radius: 1rem;
 }
+@media (max-width: 477px) {
+  #msg {
+    font-size: 1.2rem;
+  }
+  .choices {
+    gap: 1rem;
+  }
+  img {
+    height: 100px;
+    width: 100px;
+  }
+  .choice {
+    height: 125px;
+    width: 125px;
+  }
+}
